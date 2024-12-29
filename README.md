@@ -21,8 +21,4 @@ Travel Vietnam hoạt động tốt trên tất cả các trình duyệt web ph�
 - [Redux:](https://redux.js.org/) Một thư viện quản lý trạng thái ứng dụng, giúp quản lý dữ liệu và trạng thái của website một cách hiệu quả.
 - [Material-UI:](https://mui.com/) : Bộ công cụ giao diện người dùng React với các thành phần UI đẹp mắt.
 
-## [Link Website]()
-
-# Demo
-
-[![Xem video](./assets/images/screens/previews.png)(./)]()
+## [Link Website](https://travel-vietnam.vercel.app/)
