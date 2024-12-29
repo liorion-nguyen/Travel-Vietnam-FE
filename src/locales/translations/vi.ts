@@ -229,15 +229,15 @@ export const vi = {
       members: {
         chung: {
           name: 'Nguyễn Quốc Chung',
-          role: 'Lập Trình Viên Front-end',
+          role: 'Lập Trình Viên Full-stack',
           description:
-            'Một lập trình viên Front-end sáng tạo với con mắt thẩm mỹ tinh tế. Chung kết hợp chuyên môn kỹ thuật với cảm nhận thẩm mỹ để tạo ra trải nghiệm người dùng hấp dẫn.',
+            'Một lập trình viên đa năng thành thạo cả công nghệ front-end và back-end. Chung mang đến cách tiếp cận cân bằng trong phát triển, đảm bảo sự tích hợp mượt mà giữa giao diện người dùng và logic máy chủ.',
         },
         duy: {
           name: 'Nguyễn Văn Duy',
-          role: 'Lập Trình Viên Full-stack',
+          role: 'Lập Trình Viên Front-end',
           description:
-            'Một lập trình viên đa năng thành thạo cả công nghệ front-end và back-end. Duy mang đến cách tiếp cận cân bằng trong phát triển, đảm bảo sự tích hợp mượt mà giữa giao diện người dùng và logic máy chủ.',
+            'Một lập trình viên Front-end sáng tạo với con mắt thẩm mỹ tinh tế. Chung kết hợp chuyên môn kỹ thuật với cảm nhận thẩm mỹ để tạo ra trải nghiệm người dùng hấp dẫn.',
         },
         chinh: {
           name: 'Phạm Thị Chinh',
