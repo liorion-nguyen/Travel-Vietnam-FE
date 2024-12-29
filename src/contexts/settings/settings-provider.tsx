@@ -138,5 +138,5 @@ export const SettingsProvider: FC<SettingsProviderProps> = (props) => {
 };
 
 SettingsProvider.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
 };

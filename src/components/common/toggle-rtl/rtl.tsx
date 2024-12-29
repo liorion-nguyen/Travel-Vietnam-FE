@@ -35,6 +35,6 @@ export const RTL: FC<RTLProps> = (props) => {
 };
 
 RTL.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
   direction: PropTypes.oneOf<Direction>(['ltr', 'rtl']),
 };

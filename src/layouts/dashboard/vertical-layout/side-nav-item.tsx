@@ -257,12 +257,12 @@ export const SideNavItem: FC<SideNavItemProps> = (props) => {
 
 SideNavItem.propTypes = {
   active: PropTypes.bool,
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
   depth: PropTypes.number,
   disabled: PropTypes.bool,
   external: PropTypes.bool,
-  icon: PropTypes.node,
-  label: PropTypes.node,
+  icon: PropTypes.node as PropTypes.Validator<ReactNode>,
+  label: PropTypes.node as PropTypes.Validator<ReactNode>,
   open: PropTypes.bool,
   path: PropTypes.string,
   title: PropTypes.string.isRequired,

@@ -64,8 +64,8 @@ export const PropertyListItem: FC<PropertyListItemProps> = (props) => {
 
 PropertyListItem.propTypes = {
   align: PropTypes.oneOf<Direction>(['horizontal', 'vertical']),
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
   disableGutters: PropTypes.bool,
   label: PropTypes.string.isRequired,
-  value: PropTypes.oneOfType([PropTypes.string, PropTypes.node]),
+  value: PropTypes.oneOfType([PropTypes.string, PropTypes.node]) as PropTypes.Validator<ReactNode>,
 };

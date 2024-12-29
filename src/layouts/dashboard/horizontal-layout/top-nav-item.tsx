@@ -315,9 +315,9 @@ TopNavItem.propTypes = {
   active: PropTypes.bool,
   disabled: PropTypes.bool,
   external: PropTypes.bool,
-  icon: PropTypes.node,
+  icon: PropTypes.node as PropTypes.Validator<ReactNode>,
   items: PropTypes.array,
-  label: PropTypes.node,
+  label: PropTypes.node as PropTypes.Validator<ReactNode>,
   path: PropTypes.string,
   title: PropTypes.string.isRequired,
 };

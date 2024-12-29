@@ -35,5 +35,5 @@ export const Layout: FC<LayoutProps> = (props) => {
 };
 
 Layout.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
 };

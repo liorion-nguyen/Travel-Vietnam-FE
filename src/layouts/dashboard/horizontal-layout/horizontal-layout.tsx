@@ -58,7 +58,7 @@ export const HorizontalLayout: FC<HorizontalLayoutProps> = (props) => {
 };
 
 HorizontalLayout.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
   navColor: PropTypes.oneOf<NavColor>(['blend-in', 'discrete', 'evident']),
   sections: PropTypes.array,
 };

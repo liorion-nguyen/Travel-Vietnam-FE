@@ -31,7 +31,7 @@ export const VerticalLayout: FC<VerticalLayoutProps> = (props) => {
 };
 
 VerticalLayout.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
   navColor: PropTypes.oneOf<NavColor>(['blend-in', 'discrete', 'evident']),
   sections: PropTypes.array,
 };

@@ -65,6 +65,6 @@ export const SeverityPill: FC<SeverityPillProps> = (props) => {
 };
 
 SeverityPill.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
   color: PropTypes.oneOf(['primary', 'secondary', 'error', 'info', 'warning', 'success']),
 };

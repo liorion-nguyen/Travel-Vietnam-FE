@@ -13,5 +13,5 @@ export const PropertyList: FC<PropertyListProps> = (props) => {
 };
 
 PropertyList.propTypes = {
-  children: PropTypes.node,
+  children: PropTypes.node as PropTypes.Validator<ReactNode>,
 };
