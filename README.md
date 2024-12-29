@@ -1,29 +1,28 @@
-# Getting Started with Vite + React
+![Logo](./public/assets/logo.png)
 
-## Available Scripts
+# Travel Vietnam - Website Du Lịch Việt Nam
 
-In the project directory, you can run:
+## Mô Tả:
 
-### `npm run dev`
+Travel Vietnam là một website được thiết kế để cung cấp trải nghiệm du lịch tuyệt vời cho những người yêu thích khám phá các điểm đến tại Việt Nam. Website cho phép người dùng dễ dàng duyệt qua các tour du lịch, tìm kiếm các địa điểm tham quan nổi bật, và thực hiện đặt tour trực tuyến.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Travel Vietnam hoạt động tốt trên tất cả các trình duyệt web phổ biến và tối ưu cho cả thiết bị di động và máy tính để bàn.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**Các Tính Năng Chính:**
 
-### `npm run build`
+- Người dùng có thể duyệt qua các tour du lịch, điểm đến hấp dẫn và các gói tour khuyến mãi.
+- Tính năng tìm kiếm giúp người dùng tìm được các tour theo yêu cầu, từ các tour theo vùng miền đến các tour theo sở thích cá nhân.
+- Người dùng có thể đặt tour trực tuyến, nhận thông tin về các điểm đến, lịch trình, và giá cả.
+- Hệ thống đánh giá và nhận xét giúp người dùng tham khảo ý kiến của những khách hàng trước.
 
-Builds the app for production to the `dist` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Công Nghệ Sử Dụng:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [React:](https://reactjs.org/) Thư viện JavaScript phổ biến để xây dựng giao diện người dùng, giúp phát triển các ứng dụng web nhanh chóng và hiệu quả.
+- [Redux:](https://redux.js.org/) Một thư viện quản lý trạng thái ứng dụng, giúp quản lý dữ liệu và trạng thái của website một cách hiệu quả.
+- [Material-UI:](https://mui.com/) : Bộ công cụ giao diện người dùng React với các thành phần UI đẹp mắt.
 
-See the section about [deployment](https://vitejs.dev/guide/static-deploy.html) for more information.
+## [Link Website]()
 
-## Learn More
+# Demo
 
-You can learn more in the [Vite documentation](https://vitejs.dev/guide/).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Xem video](./assets/images/screens/previews.png)(./)]()
